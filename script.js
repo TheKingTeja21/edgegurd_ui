@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://127.0.0.1:5000"; // change to your PC / Pi IP
+const BACKEND_URL = "http://172.24.94.208:5000"; // change to your PC / Pi IP
 
 function login() {
   let u = document.getElementById("user").value;
@@ -43,3 +43,4 @@ function loadAlerts() {
       });
     });
 }
+
